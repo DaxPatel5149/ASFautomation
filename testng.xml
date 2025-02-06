@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">  
+  <parameter name="browser" value ="chrome">
+
+	<listeners>
+	<listener class-name="com.Amc.Utilities.Reporting" />
+	</listeners>
+	
+  <test name="Login Test">  
+  	
+   
+    <classes> 
+       <class name="com.Amc.TestCases.TC_StartPage_Positive1"/>  
+       <class name="com.Amc.TestCases.TC_Shopping_Positive1"/>
+       <class name="com.Amc.TestCases.TC_Home_Positive1"/> 
+       <!--class name="com.Amc.TestCases.TC_About_Us_Positive1" /--> 
+       <!--class name="com.Amc.TestCases.TC_Client_Projects_Positive1"/ map pending  --> 
+       <!--class name="com.Amc.TestCases.TC_My_Projects_Positive1"/--> 
+    </classes>
+      
+  </test> <!-- Test -->  
+ </parameter>
+</suite>

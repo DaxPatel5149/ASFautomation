@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.Amc.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="com.Amc.TestCases.TC_Home_Positive1">
+        <methods>
+          <include name="Clickback1"/>
+          <include name="Clickback4"/>
+          <include name="Clickback5"/>
+          <include name="Clickback2"/>
+          <include name="Clickback3"/>
+          <include name="Clickback7"/>
+          <include name="Clickbookpass1"/>
+          <include name="ClickNikol"/>
+          <include name="Clickbookpass"/>
+          <include name="ClickVideoclose"/>
+          <include name="Clickpartner1"/>
+          <include name="ClickPopup2"/>
+          <include name="ClickCGroad"/>
+          <include name="ClickPopup1"/>
+          <include name="tearDown"/>
+          <include name="SetLogger"/>
+          <include name="ClickPopup3"/>
+          <include name="Clickpartner"/>
+          <include name="Clicklogo"/>
+          <include name="ClickPopup"/>
+          <include name="Clickvideo"/>
+          <include name="ClickSponsors"/>
+          <include name="Clickback"/>
+          <include name="ClickStartTest"/>
+          <include name="setup"/>
+          <include name="ClickPopup8"/>
+          <include name="ClickManinagar"/>
+          <include name="ClickPopup7"/>
+          <include name="ClickVideoplay"/>
+          <include name="Clickback6"/>
+          <include name="ClickPopup4"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="ClickSindhuBhavan"/>
+          <include name="ClickPopup6"/>
+          <include name="ClickPopup5"/>
+        </methods>
+      </class> <!-- com.Amc.TestCases.TC_Home_Positive1 -->
+      <class name="com.Amc.TestCases.TC_Shopping_Positive1">
+        <methods>
+          <include name="ClickClearfilters"/>
+          <include name="ClickPopup11"/>
+          <include name="ClickCategory"/>
+          <include name="ClickDiscount_Des"/>
+          <include name="ClickDiscount_Des1"/>
+          <include name="ClickCategory_Des1"/>
+          <include name="ClickArea1"/>
+          <include name="ClickCategoryGift"/>
+          <include name="Clickback1"/>
+          <include name="ClickDiscount"/>
+          <include name="ShoppingDes"/>
+          <include name="ClickSearchShop"/>
+          <include name="ClickCategory1"/>
+          <include name="ClickDiscount10"/>
+          <include name="ClickCityAhmedabad"/>
+          <include name="Clickitinerary"/>
+          <include name="ClickCity_Des1"/>
+          <include name="ClickShopping1"/>
+          <include name="ClickCity_Des"/>
+          <include name="Clicklogo"/>
+          <include name="ClickAreavSindhu"/>
+          <include name="ClickDiscount1"/>
+          <include name="tearDown"/>
+          <include name="ClickCategoryOther"/>
+          <include name="ClickArea_Des1"/>
+          <include name="ClickPopup1"/>
+          <include name="SetLogger"/>
+          <include name="Clicklogo1"/>
+          <include name="ClickCategory_Des"/>
+          <include name="ClickClearfilters1"/>
+          <include name="ClickShopcard"/>
+          <include name="ClickAreavisat"/>
+          <include name="Clickback"/>
+          <include name="setup"/>
+          <include name="ClickArea"/>
+          <include name="ClickArea_Des"/>
+          <include name="ClickDiscount40"/>
+          <include name="ClickShopping"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="ClickSearchShop_Des"/>
+          <include name="ClickDekorate"/>
+        </methods>
+      </class> <!-- com.Amc.TestCases.TC_Shopping_Positive1 -->
+      <class name="com.Amc.TestCases.TC_StartPage_Positive1">
+        <methods>
+          <include name="Clickaboutus"/>
+          <include name="ClickStartTest"/>
+          <include name="ClickPrivacyNotice"/>
+          <include name="Clickshopping_desti"/>
+          <include name="Clickitinerary"/>
+          <include name="tearDown"/>
+          <include name="SetLogger"/>
+          <include name="Clicklogo"/>
+          <include name="ClickHotspots"/>
+          <include name="setup"/>
+          <include name="ClickPopup1"/>
+          <include name="ClickEvent"/>
+          <include name="ClickPopup"/>
+          <include name="ClickVisitASF"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="ClickShoppingDis"/>
+        </methods>
+      </class> <!-- com.Amc.TestCases.TC_StartPage_Positive1 -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

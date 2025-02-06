@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Intelivita.TestCases.TC_ContactPhp_Positive2">
+        <methods>
+          <include name="SelectYourBudgetTest"/>
+          <include name="tearDown"/>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="AddEmailIdTest"/>
+          <include name="AttachFileTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="AddContactNumberTest"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="setup"/>
+          <include name="SetLogger"/>
+          <include name="Scroll"/>
+          <include name="SendMessageTest"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="ClickMessageButtonTest"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_ContactPhp_Positive2 -->
+      <class name="com.Intelivita.TestCases.TC_Home_ContactUs_NGTV001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SelectYourBudgetTest"/>
+          <include name="AddEmailIdTest"/>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="AddContactNumberTest"/>
+          <include name="setup"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="SetLogger"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="ClickMessageButtonTest"/>
+          <include name="SendMessageTest"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="Scroll"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_Home_ContactUs_NGTV001 -->
+      <class name="com.Intelivita.TestCases.TC_ContactPhp_Positive1">
+        <methods>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="tearDown"/>
+          <include name="AttachFileTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="NavigatePageTest"/>
+          <include name="AddEmailIdTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="AddContactNumberTest"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="setup"/>
+          <include name="SetLogger"/>
+          <include name="ClickMessageButtonTest"/>
+          <include name="SendMessageTest"/>
+          <include name="Scroll"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="SelectYourBudgetTest"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_ContactPhp_Positive1 -->
+      <class name="com.Intelivita.TestCases.TC_Home_ContactUs_Positive002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="SendMessageTest"/>
+          <include name="ClickMessageButtonTest"/>
+          <include name="AddEmailIdTest"/>
+          <include name="Scroll"/>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="SelectYourBudgetTest"/>
+          <include name="setup"/>
+          <include name="SetLogger"/>
+          <include name="AddContactNumberTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="TakeScreenShotOfTest"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_Home_ContactUs_Positive002 -->
+      <class name="com.Intelivita.TestCases.TC_Home_ContactUs_Positive001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="ClickMessageButtonTest"/>
+          <include name="SendMessageTest"/>
+          <include name="Scroll"/>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="setup"/>
+          <include name="SelectYourBudgetTest"/>
+          <include name="SetLogger"/>
+          <include name="AddEmailIdTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="AddContactNumberTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="TakeScreenShotOfTest"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_Home_ContactUs_Positive001 -->
+      <class name="com.Intelivita.TestCases.TC_ContactPhp_NGTV001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddCompanyNameTest"/>
+          <include name="SelectYourRegionTest"/>
+          <include name="ClickMessageButtonTest"/>
+          <include name="SendMessageTest"/>
+          <include name="Scroll"/>
+          <include name="AddYourNameTest"/>
+          <include name="SelectCountryCodeTest"/>
+          <include name="setup"/>
+          <include name="SelectYourBudgetTest"/>
+          <include name="SetLogger"/>
+          <include name="AddEmailIdTest"/>
+          <include name="AttachFileTest"/>
+          <include name="SelectServiceTest"/>
+          <include name="AddContactNumberTest"/>
+          <include name="SelectYourReferenceTest"/>
+          <include name="TakeScreenShotOfTest"/>
+        </methods>
+      </class> <!-- com.Intelivita.TestCases.TC_ContactPhp_NGTV001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

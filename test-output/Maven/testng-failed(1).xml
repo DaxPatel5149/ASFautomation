@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maven]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Login Tes(failed)">
+    <classes>
+      <class name="com.Rent.TestCases.TC_ContactUs_001">
+        <methods>
+          <include name="username"/>
+          <include name="attachedfile"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="phonenumber"/>
+          <include name="emailid"/>
+          <include name="select_services"/>
+          <include name="TakeScreenShotOfTest"/>
+          <include name="SetLogger"/>
+        </methods>
+      </class> <!-- com.Rent.TestCases.TC_ContactUs_001 -->
+    </classes>
+  </test> <!-- Login Tes(failed) -->
+</suite> <!-- Failed suite [Maven] -->
