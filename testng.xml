@@ -15,7 +15,7 @@
        <class name="com.Amc.TestCases.TC_StartPage_Positive1"/>  
        <class name="com.Amc.TestCases.TC_Shopping_Positive1"/>
        <class name="com.Amc.TestCases.TC_Home_Positive1"/> 
-       <!--class name="com.Amc.TestCases.TC_About_Us_Positive1" /--> 
+      <class name="com.Amc.TestCases.TC_About_Us_Positive1"/>
        <!--class name="com.Amc.TestCases.TC_Client_Projects_Positive1"/ map pending  --> 
        <!--class name="com.Amc.TestCases.TC_My_Projects_Positive1"/--> 
     </classes>
