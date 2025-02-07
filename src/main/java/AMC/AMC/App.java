@@ -1,4 +1,4 @@
-package Oxitec.Oxitec;
+package AMC.AMC;
 
 /**
  * Hello world!
